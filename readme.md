@@ -3,13 +3,13 @@
 QuickJS is a small and embeddable Javascript engine written in C89. 
 
 ### Comparisons
-| File |  Size |
+| File |  Size Mb |
 | ------ | ------ |
-| Quickjs| 1Mb |
-| PKG NodeJs  | 33Mb |
-| Deno     | 59Mb |
-| Electron SDK     | 215Mb |
-| NWjs SDK     | 362Mb |
+| Quickjs| 1 |
+| PKG NodeJs  | 33 |
+| Deno     | 59 |
+| Electron SDK     | 215 |
+| NWjs SDK     | 362 |
 
 
 It was created by Charlie Gordon and Fabrice Bellard creator of FFMPEG and QEMU.
