@@ -59,7 +59,17 @@ git clone https://github.com/Gurigraphics/quickjs.git
 cd quickjs
 make LDEXPORT="-static -s"
 ```
-Files: qjs.exe | qjsc.exe | run-test262.exe
+Generated files: qjs.exe | qjsc.exe | run-test262.exe
+ 
+ 
+ ### To build 32 bits
+  -----------
+ ```sh  
+pacman -S --needed base-devel mingw-w64-i686-toolchain 
+pacman -S mingw-w64-i686-gcc mingw-w64-i686-make mingw-w64-i686-dlfcn
+echo "#! /bin/sh" > /mingw32/bin/make
+echo "\"mingw32-make\" \"\$@\"" >> /mingw32/bin/make
+```
  
  -----------
 
