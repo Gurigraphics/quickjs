@@ -24,7 +24,7 @@ The main documentation is in doc/quickjs.pdf or doc/quickjs.html.
 
 -----------
 
-### How Build:
+### How Build Windows:
 
 ##### 1. Download and install MSYS2 in C:\msys64
 "msys2-x86_64-20220128.exe"
