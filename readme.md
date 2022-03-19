@@ -112,6 +112,8 @@ qjs -m example.js
 
 ### Outher Examples
 
+#### modules STD e OS
+
 Edit file: **example.js**  
 ```js
 import * as std from "std";
@@ -126,6 +128,32 @@ Execute
 ```sh
 qjs -m example.js
 ```
+ -----------
+ 
+ 
+ #### Get cmd args
+
+Edit file: **example.js**  
+```js
+var func = (value) => {
+
+  console.log(  scriptArgs[1] ) 
+  print( scriptArgs[2] ); 
+}
+
+func("name") 
+```
+Execute 
+```sh
+qjs -m example.js args1 arg2
+```
+ -----------
+ 
+
+
+
+
+
 
 -----------
 
@@ -214,13 +242,60 @@ Generate file: **my_module.exe**
 gcc -D_GNU_SOURCE -I./ -o my_module my_module_js.c -static -s -L./ -lquickjs -lm -ldl -lpthread
 ```
 
-
+-----------
 
 ### References
 | File |  Repository |
 | ------ | ------ |
 | Makefile - Windows 64bits | https://github.com/mengmo/QuickJS-Windows-Build |
 | Writing native modules in C for QuickJS engine | https://calbertts.medium.com/writing-native-modules-in-c-for-quickjs-engine-49043587f2e2 |
+
+
+-----------
+
+### Related Projects
+
+txiki.js - Node modules
+https://github.com/saghul/txiki.js
+
+quickjs-emscripten - Javascript/Typescript bindings for QuickJS, a modern Javascript interpreter, compiled to WebAssembly.
+https://github.com/justjake/quickjs-emscripten
+
+quickjspp - QuickJS wrapper for C++.
+https://github.com/ftk/quickjspp
+
+QuickJS-raylib - C Game engine
+https://github.com/sntg-p/QuickJS-raylib
+
+qjs-glfw
+https://github.com/rsenn/qjs-glfw
+
+quickjs-ffi
+https://github.com/shajunxing/quickjs-ffi
+
+quickjs_dart
+https://pub.dev/documentation/quickjs_dart/latest/
+
+Quick js flutter
+https://flutterawesome.com/a-quickjs-engine-for-flutter/
+
+Quick js android
+https://developpaper.com/tutorial-on-using-quickjs-javascript-engine-in-android/
+
+QuickJS-Pascal
+https://github.com/Coldzer0/QuickJS-Pascal
+
+WasmEdge - extensible WebAssembly runtime for cloud native, edge, and decentralized applications.
+https://github.com/WasmEdge/WasmEdge
+
+quickjs - Go bindings to QuickJS 
+https://github.com/lithdew/quickjs
+
+quickjs-rs - A Rust wrapper for QuickJS.
+https://github.com/theduke/quickjs-rs
+
+Imgui and QuickJS
+https://github.com/KusStar/ABCDEFGui
 
 
 -----------
