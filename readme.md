@@ -45,7 +45,7 @@ The main documentation is in doc/quickjs.pdf or doc/quickjs.html.
 
 ## QUICKJS TUTORIALS
 
-### 0. Speed test: Download Window 64 Binaries already compiled
+### 0. Speed introduction: Download Window 64 Binaries already compiled
 https://github.com/Gurigraphics/quickjs/releases
 
 ### 1. How-Build-Windows
