@@ -66,7 +66,11 @@ https://github.com/Gurigraphics/quickjs/wiki/5.-How-get-CMD-args
 ### 6. How Create a C Module
 https://github.com/Gurigraphics/quickjs/wiki/6.-How-Create-a-C-Module
 
- 
+### 7. Module STD Methods
+https://github.com/Gurigraphics/quickjs/wiki/7.-Module-STD-Methods
+
+### 8. Module OS Methods
+https://github.com/Gurigraphics/quickjs/wiki/8.-Module-OS-Methods
  
 -----------
 
