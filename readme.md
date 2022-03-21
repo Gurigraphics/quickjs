@@ -44,33 +44,37 @@ The main documentation is in doc/quickjs.pdf or doc/quickjs.html.
 -----------
 
 ## QUICKJS TUTORIALS
-
-### 0. Speed introduction: Download Window 64 Binaries already compiled
-https://github.com/Gurigraphics/quickjs/releases
-
+ 
 ### 1. How-Build-Windows
-https://github.com/Gurigraphics/quickjs/wiki/1.-How-Build-Windows
+https://github.com/Gurigraphics/quickjs/wiki/01.-How-Build-Windows
 
 ### 2. Hello World Binary File
-https://github.com/Gurigraphics/quickjs/wiki/2.-Hello-World-Binary-File
+https://github.com/Gurigraphics/quickjs/wiki/02.-Hello-World-Binary-File
 
 ### 3. How import and run a Javascript Module
-https://github.com/Gurigraphics/quickjs/wiki/3.-How-import-and-run-a-Javascript-Module
+https://github.com/Gurigraphics/quickjs/wiki/03.-How-import-and-run-a-Javascript-Module
 
 ### 4. How import and run a C Module
-https://github.com/Gurigraphics/quickjs/wiki/4.-How-import-and-run-a-C-Module
+https://github.com/Gurigraphics/quickjs/wiki/04.-How-import-and-run-a-C-Module
 
 ### 5. How get CMD args
-https://github.com/Gurigraphics/quickjs/wiki/5.-How-get-CMD-args
+https://github.com/Gurigraphics/quickjs/wiki/05.-How-get-CMD-args
 
 ### 6. How Create a C Module
-https://github.com/Gurigraphics/quickjs/wiki/6.-How-Create-a-C-Module
+https://github.com/Gurigraphics/quickjs/wiki/06.-How-Create-a-C-Module
 
 ### 7. Module STD Methods
-https://github.com/Gurigraphics/quickjs/wiki/7.-Module-STD-Methods
+https://github.com/Gurigraphics/quickjs/wiki/07.-Module-STD-Methods
 
 ### 8. Module OS Methods
-https://github.com/Gurigraphics/quickjs/wiki/8.-Module-OS-Methods
+https://github.com/Gurigraphics/quickjs/wiki/08.-Module-OS-Methods
+
+### 09. Creating and Using an DLL or SO in C
+https://github.com/Gurigraphics/quickjs/wiki/09.-Creating-and-Using-an-DLL-or-SO
+
+### 10. Creating and Using an Import Library in C
+https://github.com/Gurigraphics/quickjs/wiki/10.-Creating-and-Using-an-Import-Library
+
  
 -----------
 
