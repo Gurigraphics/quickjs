@@ -45,7 +45,7 @@ The main documentation is in doc/quickjs.pdf or doc/quickjs.html.
 
 ## QUICKJS TUTORIALS
  
-### 1. How-Build-Windows
+### 1. How Build in Windows
 https://github.com/Gurigraphics/quickjs/wiki/01.-How-Build-Windows
 
 ### 2. Hello World Binary File
@@ -75,6 +75,17 @@ https://github.com/Gurigraphics/quickjs/wiki/09.-Creating-and-Using-an-DLL-or-SO
 ### 10. Creating and Using an Import Library in C
 https://github.com/Gurigraphics/quickjs/wiki/10.-Creating-and-Using-an-Import-Library
 
+### 11. Call a JS function from the C side
+https://github.com/Gurigraphics/quickjs/wiki/11.--Call-a-JS-function-from-the-C-side
+
+### 12. Call a C function from the JS side
+https://github.com/Gurigraphics/quickjs/wiki/12.-Call-a-C-function-from-the-JS-side
+
+### 13. Initialize and get args
+https://github.com/Gurigraphics/quickjs/wiki/13.-Initialize-and-get-args
+
+### 14. Quickjs and Raylib
+https://github.com/Gurigraphics/quickjs/wiki/14.Quickjs-and-Raylib
  
 -----------
 
